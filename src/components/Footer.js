@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DataContext } from "../Context/DataContext";
 
-const Footer = ({ posts }) => {
+const Footer = () => {
+  const { searchResult } = useContext(DataContext);
   return (
     <footer
       className="Footer"
@@ -10,11 +12,10 @@ const Footer = ({ posts }) => {
         alignItems: "center",
         justifyContent: "center",
         textAlign: "center",
-       
       }}
     >
       <p>
-        {posts.length} {posts.length <= 1 ? "Post" : "Posts"}
+        {searchResult.length} {searchResult.length <= 1 ? "Post" : "Posts"}
       </p>
 
       <p>Copyright &copy; {new Date().getFullYear()} Simple Blog</p>
