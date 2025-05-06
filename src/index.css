@@ -11,6 +11,7 @@
   --color-light: #fff;
   --color-hover: #eee;
   --color-accent: red;
+  --color-green: #28a745;
   --box-shadow: 0px 0px 15px gray;
   --border-radius: 0.25rem;
   --transition: all 0.2s ease-in-out;
@@ -221,9 +222,10 @@ body {
 /* ========== Post Page / Missing ========== */
 .Missing h2,
 .PostPage h2,
+.NewPost p,
 .Missing p,
 .PostPage p {
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .PostPage button {
@@ -231,10 +233,19 @@ body {
   min-width: 48px;
   border-radius: var(--border-radius);
   padding: 0.5rem;
+  margin-right:0.5rem;
   font-size: 1rem;
-  background-color: var(--color-accent);
+  /* background-color: var(--color-accent); */
   color: var(--color-light);
   cursor: pointer;
+}
+
+.deleteButton {
+  background-color: var(--color-accent);
+}
+
+.editButton {
+  background-color: var(--color-green);
 }
 
 /* ========== Utility ========== */

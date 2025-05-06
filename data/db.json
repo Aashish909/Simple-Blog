@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "My First Post",
+      "datetime": "July 01, 2021 5:00 PM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur, quae, quibusdam, quod quos quia quidem quas quos quod quibusdam."
+    },
+    {
+      "id": "2",
+      "title": "My Second Post",
+      "datetime": "July 01, 2021 5:00 PM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur, quae, quibusdam, quod quos quia quidem quas quos quod quibusdam."
+    },
+    {
+      "id": "3",
+      "title": "My Third Post",
+      "datetime": "July 01, 2021 5:00 PM",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis consequatur, quae, quibusdam, quod quos quia quidem quas quos quod quibusdam."
+    },
+    {
+      "id": "4",
+      "title": "My Fourth Post edited",
+      "datetime": "06/05/2025, 11:06:18",
+      "body": "edited the foutth post after /put"
+    },
+    {
+      "id": "41",
+      "title": "this is edited 5th post",
+      "datetime": "Edited May 06, 2025 at 11:10 AM",
+      "body": "5th post after editpart"
+    }
+  ]
+}
